@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    align-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+ 
+.right ul {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.left {
+    font-weight: bold;
+    font-size: 16px;
+    color: #F9FAF8;
+    
+}
